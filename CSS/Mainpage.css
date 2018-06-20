@@ -1,0 +1,54 @@
+#main{
+    background-image: url('../Media/Pictures/wapenshild.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: #f4df89;
+}
+
+header{
+    
+}
+
+.navbar{ /* nav-element */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarList{ /* ul-element */
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navbarList-item{ /* li-element */
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: 40px;
+    color: #0061ff
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ff0c00;
+    opacity: 0.6;
+}
+
+/* 
+color pattern:
+geel: hex: #e1ff00 rgb: rgb(225, 255, 0)
+rood: hex: #ff0c00 rgb: rgb(255, 12, 0)
+blauw: hex: #0061ff rgb: rgb(0, 97, 255)
+*/
