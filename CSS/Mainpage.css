@@ -19,11 +19,14 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .navbarList{ /* ul-element */
     list-style: none;
     text-align: center;
+    border-style: solid;
+    border-collapse: collapse;
     
 }
 
