@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarList{ /* ul-element */
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navbarList-item{ /* li-element */
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: 40px;
+    color: #0061ff
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ff0c00;
+}
+
+footer{
+    vertical-align: bottom;
+}
+
+#parent-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: column
+}
+
+#child-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}

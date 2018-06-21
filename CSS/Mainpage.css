@@ -43,7 +43,10 @@ a{
 
 a:hover{
     background-color: #ff0c00;
-    opacity: 0.6;
+}
+
+footer{
+    vertical-align: bottom;
 }
 
 /* 
