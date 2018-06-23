@@ -5,15 +5,12 @@
     background-attachment: fixed;
 }
 
-body{
-    background-color: #f4df89;
-}
-
 .navbar{ /* nav-element */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;    
+    opacity: 0.7;
 }
 
 .navbarList{ /* ul-element */
@@ -21,7 +18,7 @@ body{
     text-align: center;
     border-style: solid;
     border-collapse: collapse;
-    border-color: #8e8e8e;
+    border-color: #a0a0a0;
     background-color: #a0a0a0;
     opacity: 0.8;
 }
@@ -32,20 +29,16 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-family: inherit;
-    font-size: 50px;    
+    font-size: 40px;    
 }
 
 .navbarList-item:hover{
-    transform: scale(1.15);
+    transform: scale(0.9);
 }
 
 a{
     text-decoration: none;
     color: black;
-}
-
-footer{
-    vertical-align: bottom;
 }
 
 /* 
