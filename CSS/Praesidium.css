@@ -47,3 +47,10 @@ tr{
 th:hover{
     transform: scale(1.1);
 }
+
+img{
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
