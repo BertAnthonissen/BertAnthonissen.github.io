@@ -41,6 +41,22 @@ a{
     color: black;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#fb_logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
 /* 
 color pattern:
 geel: hex: #e1ff00 rgb: rgb(225, 255, 0)
