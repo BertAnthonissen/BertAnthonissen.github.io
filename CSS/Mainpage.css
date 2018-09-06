@@ -51,6 +51,12 @@ footer {
     padding-bottom: 20px;
 }
 
+.trooperLink{
+    display: flex;
+    justify-content: center;
+    padding-top: 40rem;
+}
+
 #fb_logo{
     width: 90px;
     height: 90px;
