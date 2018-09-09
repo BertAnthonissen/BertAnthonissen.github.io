@@ -36,3 +36,10 @@ img {
     width: auto;
     border-radius: 50%
 }
+
+#naam{
+    display: flex;
+    justify-content: center;
+    font-family: "Haettenschweiler";
+    font-size: 30px;
+}
