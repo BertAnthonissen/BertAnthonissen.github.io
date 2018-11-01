@@ -61,3 +61,7 @@ ul{
     text-align: center;
   list-style: inside;
 }
+
+p{
+    text-align: justify;
+}
