@@ -1,3 +1,7 @@
+.textshadow {
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
 .drop-shasow{
     text-shadow: 2px 2px 4px #000000;
 }
@@ -51,7 +55,7 @@ footer img{
 }
 
 nav{
-    background-image: url(../Pictures/Background1.jpg);
+    background-image: url(../Pictures/Background_rsz1.jpg);
     background-position: center;
     height: 670px;
     background-size: cover;
